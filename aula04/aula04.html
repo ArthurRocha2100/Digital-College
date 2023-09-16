@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <h1>Cadastro</h1>
+
+        <label for="name" class="text-bold">Nome: </label>
+        <br>
+        <input id="name" type="text">
+        <br><br>
+
+        <label for="password" class="text-bold">Senha: </label>
+        <br>
+        <input id="password" type="password">
+        <br><br>
+
+        <label for="email" class="text-bold">Email: </label>
+        <br>
+        <input id="email" type="email">
+        <br><br>
+
+        <label for="birth-date" class="text-bold">Data de nascimento: </label>
+        <br>
+        <input id="birth-date" type="date">
+        <br><br>
+
+        <label for="curso-select" class="text-bold">Cursos: </label>
+        <br>
+        <select name="curso" id="curso-select">
+            <option>Front-end</option>
+            <option>Back-end</option>
+            <option>Fullstack</option>
+        </select>
+        <br><br>
+
+        <p class="text-bold">Gênero:</p>
+        <input type="radio" id="gender-man" name="gender">
+        <label for="gender-man">Masculino</label>
+        <br>
+        <input type="radio" id="gender-woman" name="gender">
+        <label for="gender-woman">Feminino</label>
+        <br>
+        <input type="radio" id="gender-other" name="gender">
+        <label for="gender-other">Outros</label>
+        <br><br>
+
+        <p class="text-bold">Experiência: </p>
+        <input type="radio" id="experience-initial" name="experience">
+        <label for="experience-initial">Inicial</label>
+        <br>
+        <input type="radio" id="experience-intermedieri" name="experience">
+        <label for="experience-intermedieri">Intenmediário</label>
+        <br>
+        <input type="radio" id="experience-avanced" name="experience">
+        <label for="experience-avanced">Avançado</label>
+        <br><br>
+
+        <input type="checkbox" id="terms-acection" name="terms">
+        <label for="terms-acection">Aceito os termos o condições</label>
+        <br><br>
+
+        <input type="button" id="button" value="Enviar">
+        <br><br>
+
+        <details>
+            <summary class="text-bold">Porque precisamos destas informações ?</summary>
+            <p>Usamos seu nome para personalizar nossa comunicação.</p>
+            <p>Seu e-mail é necessário para enviar comunicações e atualizações sobre sua inscrição.</p>
+            <p>A data de nascimento nos ajudará a garantir que estamos fornecendo conteúdo apropriado para sua idade.</p>
+            <p>Ao selecionar seu gênero e experiência, podemos adaptar melhor nossos materiais para atender às suas necessidádes específicas.</p>
+        </details>
+
+    </form>
+</body>
+
+</html>

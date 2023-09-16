@@ -1,0 +1,43 @@
+*{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+    background-color:#e5e2e2;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 10px 5px 10px  #37373711;
+    margin: 2rem auto;
+    padding: 3rem;
+    width: 50%;
+}
+
+#name, #password, #email, #birth-date, #curso-select {
+    margin: 0 auto;
+    height: 1.5rem;
+    width: 100%;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+#button {
+    background-color: #3529e0;
+    border: none;
+    border-radius: 5px;
+    color: #fafafa;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+}
+
+#butoon {
+    
+}
