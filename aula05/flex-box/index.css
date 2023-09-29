@@ -1,0 +1,80 @@
+body {
+    background-color: #d8d6d6;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header {
+    align-items: center;
+    background-color: #1a1a1a;
+    color: #fafafa;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+header nav a {
+    background-color: #8a8686cc;
+    border-radius: 5px;
+    color: #fafafa;
+    margin: .5rem;
+    padding: .3rem;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 1rem;
+}
+
+.content {
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    margin: 2rem auto;   
+}
+
+.content-cards {
+    background-color: #fafafa;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #8a8a8a;
+    display: block;
+    height: 40%;
+    text-align: center;
+    width: 20lh;
+}
+
+.foto {
+    margin: .5rem auto;
+    height: 60%;
+    width: 40%;
+}
+
+footer {
+    align-items: top;
+    background-color: #1a1a1a;
+    color: #fafafa;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.footer_card-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: .5rem auto;
+}
+
+.footer-card {
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #fafafa;
+    text-decoration: none;
+}
