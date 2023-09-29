@@ -29,7 +29,7 @@ header nav a {
 .content {
     display: flex;
     height: 100vh;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 2rem auto;   
 }
 
@@ -40,13 +40,14 @@ header nav a {
     display: block;
     height: 40%;
     text-align: center;
-    width: 20lh;
+    width: 20%;
+    padding: 1rem;
 }
 
 .foto {
     margin: .5rem auto;
-    height: 60%;
-    width: 40%;
+    height: 50%;
+    width: 50%;
 }
 
 footer {
