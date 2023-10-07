@@ -1,0 +1,110 @@
+:root {
+    --spacing-tiny: 4px;
+    --spacing-smaller: 8px;
+    --spacing-small: 12px;
+    --spacing-normal: 16px;
+    --spacing-large: 20px;
+
+    --color-black: #1a1a1a;
+    --color-white: #fafafa;
+    --color-grey:#8a8686cc;
+    --color-grey-light:#d8d6d6;
+}
+
+
+body {
+    background-color:  var(--color-grey-light);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header {
+    align-items: center;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 var(--spacing-normal);
+}
+
+header nav a {
+    background-color: var(--color-grey);
+    border-radius: var(--spacing-normal);
+    color: var(--color-white);
+    margin: var(--spacing-small);
+    padding: var(--spacing-smaller);
+    text-decoration: none;
+}
+
+.logo {
+    font-size: var(--spacing-normal);
+}
+
+.content {
+    display: flex;
+    padding: var(--spacing-normal);
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 2rem auto;   
+}
+
+.content-cards {
+    background-color: var(--color-white);
+    border-radius: var(--spacing-small);
+    box-shadow: 0 0 var(--spacing-normal) var(--color-grey);
+    display: block;
+    height: 40%;
+    text-align: center;
+    width: 20%;
+    padding: var(--spacing-normal);
+    transition: transform 1s ;
+}
+
+.foto {
+    border-radius: var(--spacing-large);
+    margin: var(--spacing-small) auto;
+    height: 50%;
+    width: 50%;
+}
+
+footer {
+    align-items: top;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    display: flex;
+    justify-content: space-around;
+    bottom: 0;
+    width: 100%;
+    position: relative;
+}
+
+.footer-card {
+    text-align: left;
+    padding: var(--spacing-normal);
+}
+
+.footer_card-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: var(--spacing-small) auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-top:var(--spacing-small) ;
+}
+
+a {
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+
+.content-cards:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
