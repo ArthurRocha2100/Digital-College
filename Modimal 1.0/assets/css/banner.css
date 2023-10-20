@@ -13,9 +13,22 @@
     bottom: var(--spacing-massive);
 }
 
-.banner_content-left p {
+.banner_content-left p  {
     margin: var(--spacing-normal) auto;
     font-size: 1.4rem;
+}
+
+.banner-content-rigth {
+    text-align: right;
+    position: absolute;
+    right: var(--spacing-large);
+    bottom: var(--spacing-large);
+    width: 40%;
+}
+
+.banner-content-rigth p {
+    margin: var(--spacing-normal) auto;
+    text-align: left;
 }
 
 .banner_btn {

@@ -20,3 +20,48 @@
     display: flex;
     gap: var(--spacing-normal);
 }
+
+.best-sellers-content-card_photo {
+    position: relative;
+}
+
+.best-sellers-content-card-photo_icon{
+    position: absolute;
+    width: var(--spacing-medium);
+    right: var(--spacing-normal);
+    top: var(--spacing-normal);
+}
+
+
+
+.best-seller-content-card_data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.best-sellers-content-card_title {
+    font-weight: bold;
+    margin: var(--spacing-normal) auto;
+}
+
+.best-sellers-content-card_description {
+    margin: var(--spacing-normal) auto;
+}
+
+.best-sellers-content-card_price {
+    font-weight: bold;
+}
+
+.best-sellers-content-card_colors {
+    display: flex;
+    gap: var(--spacing-smaller);
+    margin: var(--spacing-normal) auto;
+}
+
+.best-sellers-content-card-colors_color {
+    width: var(--spacing-medium);
+    height: var(--spacing-medium);
+    border-radius: 50%;
+    background-color: black ;
+}

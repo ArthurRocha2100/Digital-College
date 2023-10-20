@@ -1,6 +1,6 @@
 .header-green {
     width: 100%;
-    padding: var(--spacing-tiny);
+    padding: var(--spacing-tiny auto);
     text-align: center;
     background-color: var(--primary-600);
     color: white;
