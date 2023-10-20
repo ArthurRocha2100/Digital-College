@@ -14,9 +14,13 @@
     --color-primary: rgb(81, 81, 231);
 }
 
-p{
+p, ul{
     margin: 0;
     padding: 0;
+}
+
+a {
+    text-decoration: none;
 }
 
 body {
