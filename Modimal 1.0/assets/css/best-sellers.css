@@ -1,0 +1,22 @@
+.best-sellers {
+    padding: 0 var(--spacing-massive);
+    margin-top: var(--spacing-massive);
+}
+
+
+.best-sellers_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.best-sellers-header_btn {
+    align-items: end;
+    border: none;
+    background-color: rgba(0,0,0, 0);
+    color: var(--color-primary);
+}
+
+.best-sellers_content {
+    display: flex;
+    gap: var(--spacing-normal);
+}

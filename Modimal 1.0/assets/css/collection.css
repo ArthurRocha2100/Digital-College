@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.collection-container{
+    padding: 0 64px;   
+}
+
+.collection-container_content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0 25px;
+    width: 100%;
+}
+
+.card1, .card2, .card3, .card4 {
+    position: relative;
+}
+
+.img1, .img2, .img3, .img4{
+    width: 100%;
+}
+
+.card1{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.card2{
+    grid-column-start: 1;
+    grid-row-start: 7S;
+    grid-row-end: 8;
+}
+
+.card3{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.card4{
+    grid-column-start: 2;
+    grid-row-start:3;
+    grid-row-end: 8;
+}
+
+
+
+.btn-right, .btn-left{
+    padding: .3rem 2rem;
+    border: none;
+    border-radius: 2px;
+}
+
+.btn-left {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;   
+}
+
+.btn-right {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
