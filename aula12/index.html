@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 12</title>
+</head>
+<body>
+
+
+    <h2>Exercicio de sala</h2>
+
+    <ul>
+        <li>Escreva um algoritmo que diz se a pessoa é adulta ou menor de idade.</li>
+        <li>Faça um algoritmo que receba como entrada a temperatura. Se a temperatura for acima de 35, diga que está muito quente. Se a temperatura for abaixo de 25, diga que está muito frio. Se a temperatura estiver entre 25 e 30, diga que está muito boa.</li>
+        <li>Calculadora de IMC</li>
+        <li>Calculadora de IMC que imprime a classificação</li>
+    </ul>
+
+    <h2>Execução:</h2>
+
+    <section>
+        <h3>Exercicio 1:</h3>
+        <div class="age-check">
+            <label for="age-input">Idade:</label>
+            <input type="text" id="age-input" placeholder="Insira sua idade aqui">
+    
+            <button type="button" id="age_check-btn">Verificar idade</button>
+            <p>
+                <span id="age_check-result"></span>
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <h3>Exercicio 2:</h3>
+        <div class="alert-temperature">
+            <label for="temperature-input">Temperatura:</label>
+            <input type="text" id="temperature-input" placeholder="Digite a temperatura atual">
+
+            <button type="button" id="alert_temperature-btn" >Verificar temperatura</button>
+            <p>
+                <span id="temperature_check-result"></span>
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <h3>Exercicio 3 e 4:</h3>
+        <div class="imc-calculator">
+            <label for="imc_calculator_weight-input">Peso:</label>
+            <input type="text" id="imc_calculator_weight-input" placeholder="Digite o peso atual">
+
+            <label for="imc_calculator_height-input">
+                Altura:</label>
+            <input type="text" id="imc_calculator_height-input" placeholder="Digite o peso altura">
+
+            <button type="button" id="imc_calculator-btn" >Verificar temperatura</button>
+            <p>
+                <span id="imc_calculator-result"></span>
+            </p>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+    <!-- <script src="script.js"></script> -->
+</body>
+</html>

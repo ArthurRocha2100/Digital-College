@@ -1,0 +1,56 @@
+:root {
+  --spacing-tiny: 4px;
+  --spacing-smaller: 8px;
+  --spacing-small: 12px;
+  --spacing-normal: 16px;
+  --spacing-medium: 24px;
+  --spacing-large: 32px;
+  --spacing-huge: 48px;
+  --spacing-massive: 64px;
+
+  --primary-primary-600: #5A6D57;
+  --neutral-gray-404040: #404040;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero-button {
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
+}
+
+.hero-imagem {
+  background-image: url(./assets/hero.png);
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 550px) {
+  .hero-button {
+    bottom: var(--spacing-normal);
+    left: var(--spacing-normal);
+  }
+
+  
+}
+
+.hero img {
+  width: 100%;
+}
+
+

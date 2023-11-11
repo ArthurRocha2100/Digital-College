@@ -50,8 +50,6 @@ footer {
 }
 
 .email_btn{
-    width: 16px;
-    height: 16px;
     padding: var(--spacing-tiny);
     cursor: pointer;
 }

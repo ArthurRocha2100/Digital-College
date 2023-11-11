@@ -23,6 +23,7 @@
 
 .best-sellers-content-card_photo {
     position: relative;
+    width: 100%;
 }
 
 .best-sellers-content-card-photo_icon{
