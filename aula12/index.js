@@ -6,12 +6,10 @@ const teperatureInput = document.getElementById('temperature-input');
 const btnAlertTemperature = document.getElementById('alert_temperature-btn')
 const resultAlertTemperature = document.getElementById('temperature_check-result');
 
-
 const userWeingh = document.getElementById('imc_calculator_weight-input');
 const userHeight = document.getElementById('imc_calculator_height-input');
 const resultImcCalculator = document.getElementById('imc_calculator-result');
 const btnImcCalculator = document.getElementById('imc_calculator-btn');
-
 
 
 btnAgeCheck.onclick = () => {
@@ -60,7 +58,6 @@ function alertTemperature(temperature) {
     }
 
 }
-
 
 function imcCalculator (weight, height) {
     const weightInt = parseFloat(weight);
