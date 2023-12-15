@@ -21,8 +21,10 @@ p, ul{
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 body {
     font-family: 'Montserrat';
+    margin: 0;
 }

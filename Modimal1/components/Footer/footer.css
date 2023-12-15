@@ -1,6 +1,7 @@
 footer {
     background-color: var(--neutra-gray);
     padding: var(--spacing-normal) var(--spacing-massive);
+    bottom: 0;
 }
 
 .footer-container {
