@@ -1,0 +1,1 @@
+const salutation = document.querySelector('div');

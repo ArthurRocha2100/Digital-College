@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: space-between;
+        }
+        #questionOne {
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+        }
+
+        #questionOne-result {   
+            width: 80%;
+        }
+
+        .invalid {
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div id="questionOne">
+
+        <label for="questionOne-value-a">Primeiro valor</label>
+        <input id="questionOne-value-a" type="number" placeholder="Digite aqui o primeiro valor">
+
+        <label for="questionOne-value-b">Primeiro valor</label>
+        <input id="questionOne-value-b" type="number" placeholder="Digite aqui o segundo valor">
+
+        <button id="questionOne-btn">Calcular soma</button>
+        <div id="questionOne-result"></div>
+
+    </div>
+    
+    
+    <div class="questionTwo">
+        <form class="questionTwo-form">
+            <label for="questionTwo_form-item">Item</label>
+            <input id="questionTwo_form-item" type="text" placeholder="Digite aqui o nome do item...">
+
+        </form>
+        
+        <button id="questionTwo_form-btn">Incluir</button>
+        
+        <ul id="questionTwo-list"></ul>
+    </div>
+    
+    
+    <script>
+        const questionOneBtn = window.document.getElementById('questionOne-btn');
+        
+        questionOneBtn.onclick = () =>{
+            const quesitionOneValueA =  Number(window.document.getElementById('questionOne-value-a').value);
+            const quesitionOneValueB =  Number(window.document.getElementById('questionOne-value-b').value);
+
+            const result = sum(quesitionOneValueA,quesitionOneValueB);
+            showResult(quesitionOneValueA,quesitionOneValueB,result);
+        }
+        
+        function sum(valueA, valueB) {
+            const result = valueA + valueB;
+
+            return result;
+        }
+        
+        function showResult(valueA, valueB,result) {
+            const questionOneResult = window.document.getElementById('questionOne-result');
+            const resultValue = `O resultado de ${valueA} + ${valueB} é ${result}`;
+        
+            questionOneResult.innerText = resultValue;
+        }
+    </script>
+
+    <script>
+        const listItem = window.document.getElementById('questionTwo-list');
+        const btn = window.document.getElementById('questionTwo_form-btn');
+
+        btn.addEventListener('click', () => {
+            validInput();
+        })
+
+        function validInput(){
+            const labelItem = window.document.getElementById('questionTwo_form-item');
+
+            if(labelItem.value === '') {
+                labelItem.classList.add('invalid');
+                return false
+            }
+            else{
+                labelItem.classList.remove('invalid');
+                return true;
+            }
+        }
+
+        function addItem(item){
+            listItem.push(item);
+        }
+
+
+    </script>
+</body>
+</html>
