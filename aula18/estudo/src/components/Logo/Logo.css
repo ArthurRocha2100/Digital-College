@@ -1,0 +1,31 @@
+.logo {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-main {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.logo-title {
+    font-size: 1.3rem;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.logo-icon {
+    color: var(--white);
+    background-color: var(--primary-primary-600);
+    line-height: 0;
+    padding: 3px;
+    border-radius: 100%;
+    font-size: .6rem;
+}
+
+.logo-subtitle {
+    font-size: .8rem;
+}

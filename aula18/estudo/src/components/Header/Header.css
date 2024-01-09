@@ -1,0 +1,24 @@
+.green-header {
+    background-color: var(--primary-primary-600);
+    text-align: center;
+    padding: var(--spacing-tiny);
+}
+
+.green-header p {
+    color: var(--white);
+    font-size: .8rem;
+    margin: 0;
+}
+
+.header-main {
+    align-items: center;
+    display: flex;
+    padding: 0 var(--spacing-normal);
+}
+
+.header_main-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 var(--spacing-normal);
+}

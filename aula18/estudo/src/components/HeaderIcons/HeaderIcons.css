@@ -1,0 +1,11 @@
+.icons {
+    display: flex;
+    gap: var(--spacing-normal);
+    padding: 0;
+}
+
+.icon {
+    list-style: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
