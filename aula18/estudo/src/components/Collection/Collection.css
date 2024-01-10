@@ -1,0 +1,8 @@
+.collection {
+    padding: 0 var(--spacing-large);
+}
+
+.collection-container {
+    display: flex;
+    gap: var(--spacing-normal);
+}

@@ -1,0 +1,34 @@
+.container-right {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.container_right-card {
+    position: relative;
+}
+
+.container_right-card img{
+    width: 100%;
+}
+
+.container_right-btn {
+    position: absolute;
+    right: var(--spacing-large);
+    bottom: var(--spacing-large);
+    padding: var(--spacing-smaller) var(--spacing-large);
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+@media (max-width: 786px) {
+    .container_right-btn {
+        position: static;
+        width: 100%;
+        text-align: left;
+        padding: auto;
+    }
+}

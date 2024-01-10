@@ -1,6 +1,7 @@
 import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
 import BestSellers from './components/BestSellers/BestSellers'
+import Collection from './components/Collection/Collection'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Hero />
       <BestSellers />
+      <Collection />
     </div>
   )
 }
