@@ -1,10 +1,11 @@
-import { CardsList, Header } from './components/index'
+import { CardsList, Header, Footer } from './components/index'
 
 function App() {
   return (
     <>
       <Header />
       <CardsList />
+      <Footer />
     </>
   )
 }

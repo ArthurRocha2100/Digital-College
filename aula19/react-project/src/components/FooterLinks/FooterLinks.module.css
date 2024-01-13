@@ -1,0 +1,18 @@
+.FooterLinksGropTitle {
+    color:  var(--color-white);
+    margin: 0 0 5px 0;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.FooterLinksGrop ul {
+    margin: 0;
+    padding: 0;
+}
+
+.FooterLinksGropLink {
+    list-style: none;
+}
+
+.FooterLinksGropLink a {
+    color: var(--color-white);
+}
