@@ -1,0 +1,22 @@
+.card {
+    background-color: var(--color-white);
+    border-radius: var(--spacing-normal);
+    padding: var(--spacing-normal);
+    width: 20%;
+}
+
+.card img{
+    border-radius: 50%;
+    width: 100%;
+
+}
+
+.cardName {
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.cardOffice {
+    color: black;
+}
