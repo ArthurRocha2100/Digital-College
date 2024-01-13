@@ -5,46 +5,46 @@ const CardArray = [
     {
         imageUrl: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png',
         name: 'Fulano',
-        office: 'Dev'
+        office: 'Full Stack'
     },
     {
         imageUrl: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png',
-        name: 'Fulano',
-        office: 'Dev'
+        name: 'Tião',
+        office: 'Font-End'
     },  
     {
         imageUrl: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png',
-        name: 'Fulano',
-        office: 'Dev'
+        name: 'Zé',
+        office: 'Back-End'
     },    
     {
         imageUrl: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png',
-        name: 'Fulano',
-        office: 'Dev'
+        name: 'Ana',
+        office: 'QA'
     },
     {
         imageUrl: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png',
-        name: 'Fulano',
-        office: 'Dev'
+        name: 'Luiz',
+        office: 'Técnico de redes'
     },
     {
         imageUrl: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png',
-        name: 'Fulano',
-        office: 'Dev'
+        name: 'Chico',
+        office: 'Puxador de cabo'
     },
     {imageUrl: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png',
-    name: 'Fulano',
-    office: 'Dev'
+        name: 'Mundico',
+        office: 'UX'
     },
     {
         imageUrl: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png',
-        name: 'Fulano',
-        office: 'Dev'
+        name: 'Cicrano',
+        office: 'DevOps'
     },
     {
         imageUrl: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png',
-        name: 'Fulano',
-        office: 'Dev'
+        name: 'Tux',
+        office: 'A Lenda'
     },
 ]
 
