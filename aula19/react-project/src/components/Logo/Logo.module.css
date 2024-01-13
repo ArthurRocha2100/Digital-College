@@ -1,0 +1,6 @@
+.LogoTitle {
+    color: var(--color-white);
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 10px 0;
+}

@@ -1,14 +1,15 @@
 .card {
-    background-color: var(--color-white);
+    background-color:white;
     border-radius: var(--spacing-normal);
-    padding: var(--spacing-normal);
-    width: 20%;
+    width: calc(25% - 40px);
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
 }
 
 .card img{
     border-radius: 50%;
-    width: 100%;
-
+    width: 40%;
 }
 
 .cardName {
@@ -19,4 +20,18 @@
 
 .cardOffice {
     color: black;
+}
+
+
+@media (max-width: 678px) {
+
+    .card{
+        width: calc(33% - 40px);
+    }
+}
+
+@media (max-width: 393px) {
+    .card {
+        width: calc(50% - 40px);
+    }
 }

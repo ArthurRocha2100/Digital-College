@@ -1,0 +1,16 @@
+.NavBar {
+    display: flex;
+    gap: 20px;
+    flex: 1;
+    justify-content: center;
+}
+
+.NavBarItem {
+    color: var(--color-white);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.NavBarItem:hover {
+    color: #4d4a4a;
+}

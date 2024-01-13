@@ -1,9 +1,9 @@
-import './App.css'
-import { CardsList } from './components/CardsList/CardsList'
+import { CardsList, Header } from './components/index'
 
 function App() {
   return (
     <>
+      <Header />
       <CardsList />
     </>
   )
