@@ -16,3 +16,14 @@
 .FooterLinksGropLink a {
     color: var(--color-white);
 }
+
+@media (max-width: 393px) {
+    .FooterLinksGrop {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .FooterLinksGrop:nth-child(2n){
+        background-color: #757575;
+    }
+}

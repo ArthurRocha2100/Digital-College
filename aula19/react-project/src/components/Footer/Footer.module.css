@@ -4,3 +4,12 @@ footer {
     justify-content: space-around;
     padding: 20px;
 }
+
+
+@media (max-width: 393px) {
+    footer {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 0;
+    }
+}

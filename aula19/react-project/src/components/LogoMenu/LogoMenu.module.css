@@ -16,3 +16,9 @@
     font-weight: bold;
     margin: 0;
 }
+
+@media (max-width: 678px) {
+    .LogoMenu {
+        display: none;
+    }
+}

@@ -13,4 +13,25 @@
 
 .NavBarItem:hover {
     color: #4d4a4a;
+    translate: 0 -3px;
+
+}
+
+#HamburgerMenu {
+   color: var(--color-white);
+   font-size: 1.3rem;
+   display: none;
+}
+
+@media (max-width: 678px) {
+
+    .NavBar {
+        display: none;
+    }
+
+    #HamburgerMenu {
+        display: block;
+        position: absolute;
+        left: 20px;
+    }
 }
