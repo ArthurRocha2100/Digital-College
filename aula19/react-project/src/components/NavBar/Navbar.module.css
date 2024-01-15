@@ -23,6 +23,36 @@
    display: none;
 }
 
+.NavBarListAchor{
+    position: fixed;
+    min-width:30%;
+    height: 100vh;
+    background-color: #353535;
+    left: 0;
+    top:0;
+}
+
+#CloseIcon {
+    font-size: 2rem;
+    color: var(--color-white);
+}
+
+
+.NavBarMobile{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.NavBarMobileItem{
+    color: var(--color-white);
+    padding: 10px 0;
+}
+
+.NavBarMobileItem:nth-child(2n){
+    background-color: #5e5e5e;
+}
+
 @media (max-width: 678px) {
 
     .NavBar {
