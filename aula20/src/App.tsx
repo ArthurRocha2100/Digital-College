@@ -58,8 +58,11 @@ function App() {
 
   return (
     <>
-      <Header />
-      <Search onFilterCharge={(term) => setSearchTerm(term)}/>
+      <Header 
+        search={
+          <Search onFilterCharge={(term) => setSearchTerm(term)}/>
+        }
+      />
       <CardsList>
         {filteredList.map((dev) => (
           <Card 

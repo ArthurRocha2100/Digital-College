@@ -5,4 +5,5 @@
     justify-content: stretch;
     width: calc(100% - 20px);
     padding: 10px;
+    height: 100vh;
 }

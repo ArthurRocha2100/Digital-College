@@ -11,6 +11,8 @@
 body {
   margin: 0;
   background-color: #eaeaea;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
