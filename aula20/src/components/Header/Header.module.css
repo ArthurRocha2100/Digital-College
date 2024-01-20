@@ -4,6 +4,7 @@ header {
     align-items: center;
     margin: 0;
     padding: 10px 20px;
+    
 }
 
 @media (max-width: 678px) {
