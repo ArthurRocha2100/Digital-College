@@ -60,7 +60,7 @@ function App() {
     <>
       <Header 
         search={
-          <Search onFilterCharge={(term) => setSearchTerm(term)}/>
+          <Search onFilterChange={(term) => setSearchTerm(term)}/>
         }
       />
       <CardsList>
