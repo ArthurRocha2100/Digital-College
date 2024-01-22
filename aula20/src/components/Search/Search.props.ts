@@ -1,3 +1,3 @@
 export interface SearchProps {
-    onFilterChange?: (term:string) => void;
+    onFilterChange: (term:string) => void;
 }
