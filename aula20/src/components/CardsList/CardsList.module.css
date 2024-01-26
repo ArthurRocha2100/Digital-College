@@ -1,0 +1,9 @@
+.cardsList {
+    align-content: start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    width: calc(100% - 20px);
+    padding: 10px;
+    height: 100vh;
+}
