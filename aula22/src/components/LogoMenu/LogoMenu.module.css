@@ -1,0 +1,24 @@
+.LogoMenu {
+    cursor: pointer;
+}
+
+
+.LogoMenuTitle {
+    color: var(--color-white);
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 0;
+    line-height: 10px;
+}
+
+.LogoMenuSubTitle {
+    color: var(--color-white);
+    font-weight: bold;
+    margin: 0;
+}
+
+@media (max-width: 678px) {
+    .LogoMenu {
+        display: none;
+    }
+}

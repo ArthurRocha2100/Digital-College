@@ -1,0 +1,29 @@
+.FooterLinksGropTitle {
+    color:  var(--color-white);
+    margin: 0 0 5px 0;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.FooterLinksGrop ul {
+    margin: 0;
+    padding: 0;
+}
+
+.FooterLinksGropLink {
+    list-style: none;
+}
+
+.FooterLinksGropLink a {
+    color: var(--color-white);
+}
+
+@media (max-width: 393px) {
+    .FooterLinksGrop {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .FooterLinksGrop:nth-child(2n){
+        background-color: #757575;
+    }
+}
