@@ -3,8 +3,7 @@ import { IoIosClose } from "react-icons/io"
 import { useState } from "react"
 import { TextLink } from "../TextLink/TextLink"
 import styles from './Navbar.module.css'
-
-const anchors = ['Inicio', 'Sobre' , 'Contato',]
+import { ROUTER } from "../../pages/routes"
 
 export const Navbar = () => {
     return(
@@ -19,9 +18,9 @@ export const Navbar = () => {
 const NavBarDescktop = () => {
     return(
         <div className={styles.NavBar}>
-            {anchors.map(anchor => (
-                <TextLink>{anchor}</TextLink>
-            ))}            
+            <TextLink to={ROUTER.home} text='Início'/>
+            <TextLink to={ROUTER.about} text='sobre' />
+            <TextLink to={ROUTER.contact} text='contato'/>
         </div>
     )
 }
@@ -41,11 +40,10 @@ const NavBarMobile = () => {
             { openMenu && (
                 <div className={styles.NavBarListAchor}>
                     <IoIosClose  id={styles.CloseIcon} onClick={toggleMenuState}/>
-
                     <div className={styles.NavBarMobile}>
-                        {anchors.map(anchor => (
-                            <TextLink>{anchor}</TextLink>
-                        ))}  
+                        <TextLink to={ROUTER.home} text='Início'/>
+                        <TextLink to={ROUTER.about} text='sobre' />
+                        <TextLink to={ROUTER.contact} text='contato'/>
                     </div>
                 </div>
             )}
